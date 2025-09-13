@@ -15,7 +15,7 @@ TSHARK_PATH = "C:\\Program Files\\Wireshark\\tshark.exe"
 INTERFACE_NAME = "Wi-Fi"
 
 # Hardcoded path to your analysis script
-ANALYSIS_SCRIPT_PATH = "new_fixed.py"
+ANALYSIS_SCRIPT_PATH = "nnf.py"
 
 # File settings
 CAPTURE_DURATION = 5
