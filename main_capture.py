@@ -12,14 +12,14 @@ TSHARK_PATH = "C:\\Program Files\\Wireshark\\tshark.exe"
 # TODO: Set the network interface you want to capture.
 # Run 'tshark -D' in your terminal to see a list of available interfaces.
 # Example: "Wi-Fi", "Ethernet", "en0"
-INTERFACE_NAME = "Wi-Fi"
+INTERFACE_NAME = "Local Area Connection 2"
 
 # Hardcoded path to your analysis script
-ANALYSIS_SCRIPT_PATH = "nnf.py"
+ANALYSIS_SCRIPT_PATH = "ran.py"
 
 # File settings
-CAPTURE_DURATION = 5
-OUTPUT_FILENAME = "data.pcap"
+CAPTURE_DURATION = 15
+OUTPUT_FILENAME = "DDoS_data.pcap"
 
 
 def run_capture_cycle():
