@@ -1,0 +1,3 @@
+Benign,9874
+Noise/Unknown,444
+PortScan,15
